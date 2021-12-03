@@ -361,6 +361,10 @@ tfbot_meta bot_generator::generate_bot()
 			{
 				bot_meta.set_base_class_icon("soldier_libertylauncher");
 			}
+			else if (primary.is_a("The Loose Cannon"))
+			{
+				bot.character_attributes["grenade launcher mortar mode"] = 0; // This is so that the Demoman can use The Loose Cannon.
+			}
 
 			if (primary.bots_too_dumb_to_use)
 			{
@@ -510,14 +514,18 @@ tfbot_meta bot_generator::generate_bot()
 	else if (secondary.is_a("The Battalion's Backup"))
 	{
 		bot_meta.set_base_class_icon("soldier_backup");
+		bot.attributes.emplace("SpawnWithFullCharge");
+
 	}
 	else if (secondary.is_a("The Buff Banner"))
 	{
 		bot_meta.set_base_class_icon("soldier_buff");
+		bot.attributes.emplace("SpawnWithFullCharge");
 	}
 	else if (secondary.is_a("The Concheror"))
 	{
 		bot_meta.set_base_class_icon("soldier_conch");
+		bot.attributes.emplace("SpawnWithFullCharge");
 	}
 	else if (secondary.is_a("The Vaccinator MVM"))
 	{
