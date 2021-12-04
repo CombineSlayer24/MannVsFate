@@ -13,7 +13,7 @@ Edited by [CombineSlayer24](https://github.com/CombineSlayer24)
 • Gatebots cannot be created.
 
 # Fixes #
-- [ ] Remove Snipers like The Machina and The Classic
-- [ ] Give Demos with Loose Cannon attribute fix for not firing
-- [ ] Give Soldiers with Buff items "SpawnWithFullCharge"
+- [x] Remove Snipers like The Machina and The Classic
+- [x] Give Demos with Loose Cannon attribute fix for not firing
+- [x] Give Soldiers with Buff items "SpawnWithFullCharge"
 - [ ] Add more map support
