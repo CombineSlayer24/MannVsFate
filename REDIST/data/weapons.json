@@ -503,6 +503,11 @@
 	{
 		"parent" : "tf_weapon_sword"
 	},
+	"The Classic" :
+	{
+		"parent" : "tf_weapon_sniperrifle_classic",
+		"bots_too_dumb_to_use" : true
+	},
 	"The Cleaner's Carbine" :
 	{
 		"parent" : "tf_weapon_charged_smg"
@@ -746,6 +751,11 @@
 	{
 		"parent" : "tf_weapon_cannon"
 	},
+	"The Machina" :
+	{
+		"parent" : "tf_weapon_sniperrifle",
+		"bots_too_dumb_to_use" : true
+	},
 	"Mad Milk" :
 	{
 		"parent" : "tf_weapon_jar_milk"
@@ -927,10 +937,6 @@
 	"Sharpened Volcano Fragment" :
 	{
 		"parent" : "tf_weapon_fireaxe"
-	},
-	"Shooting Star" :
-	{
-		"parent" : "The Machina"
 	},
 	"The Short Circuit" :
 	{
