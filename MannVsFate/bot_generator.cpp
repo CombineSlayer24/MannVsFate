@@ -447,7 +447,7 @@ tfbot_meta bot_generator::generate_bot()
 		{
 			bot_meta.set_base_class_icon("heavy_champ");
 		}
-		else if (melee.is_a("Gloves of Running Urgently"))
+		else if (melee.is_a("Gloves of Running Urgently MvM"))
 		{
 			bot_meta.set_base_class_icon("heavy_gru");
 		}

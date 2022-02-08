@@ -984,10 +984,6 @@
 	{
 		"parent" : "tf_weapon_sniperrifle"
 	},
-	"The Thermal Thruster" :
-	{
-		"parent" : "tf_weapon_rocketpack"
-	},
 	"The Third Degree" :
 	{
 		"parent" : "tf_weapon_fireaxe"
